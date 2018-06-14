@@ -9,8 +9,7 @@ import { environment } from "../../../environments/environment";
 
 const httpOptions = {
   headers: new HttpHeaders( {
-    'Content-type': 'application/json',
-    'Access-Control-Allow-Origin': '*'
+    'Content-type': 'application/json'
   } )
 };
 
