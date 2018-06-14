@@ -1,0 +1,29 @@
+* {
+  font-family: Verdana;
+  color: #38414A;
+}
+
+::selection {
+  background-color: #E4004F;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #929292;
+  color: white;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: white;
+  color: #E4004F;
+}

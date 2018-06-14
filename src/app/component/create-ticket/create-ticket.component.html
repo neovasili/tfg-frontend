@@ -1,0 +1,15 @@
+<h2>Create ticket</h2>
+<a routerLink="/dashboard">Back</a>
+<div>
+  <label class="field">
+    <span class="field-label">Customer name:</span>
+    <input class="field-value" #customerName/>
+  </label>
+  <label class="field">
+    <span class="field-label">Ticket amount:</span>
+    <input class="field-value" #ticketAmount/>
+  </label>
+  <button class="save-button" (click)="add( customerName.value, ticketAmount.value );">
+    add
+  </button>
+</div>

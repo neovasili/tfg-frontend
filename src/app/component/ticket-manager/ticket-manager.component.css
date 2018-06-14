@@ -1,0 +1,13 @@
+li.ticket-card {
+  display: inline-block;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #eaeadf;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+}
+
+li.ticket-card:hover {
+  background-color: white;
+}

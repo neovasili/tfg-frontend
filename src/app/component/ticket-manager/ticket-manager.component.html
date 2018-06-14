@@ -1,0 +1,18 @@
+<h2>My Tickets</h2>
+<a routerLink="/dashboard">Back</a>
+<ul class="ticket-list">
+  <li *ngFor="let ticket of tickets" class="ticket-card">
+    <div class="ticket-element">
+      <span class="badge"><strong>TicketID: </strong></span>
+      <span class="badge">{{ ticket.customerTicketID }}</span>
+    </div>
+    <div class="ticket-element">
+      <span class="badge"><strong>Customer name: </strong></span>
+      <span class="badge">{{ ticket.customerName }}</span>
+    </div>
+    <div class="ticket-element">
+      <span class="badge"><strong>Ticket amount: </strong></span>
+      <span class="badge">{{ ticket.ticketAmount }}</span>
+    </div>
+  </li>
+</ul>
